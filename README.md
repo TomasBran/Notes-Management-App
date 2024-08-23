@@ -134,5 +134,3 @@ pkill -f 'npm start'
 - **npm**: 8.x
 - **NestJS**: 10.x
 - **React**: 18.x
-
-EOL
