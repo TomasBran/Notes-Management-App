@@ -136,3 +136,7 @@ pkill -f 'npm start'
 - **npm**: 8.x
 - **NestJS**: 10.x
 - **React**: 18.x
+
+## Known Issues
+
+- **User-Note Association**: Currently, there is no linkage between the user entity and the note entity. As a result, notes are shared among all users, rather than being restricted to individual user accounts. This means that any user can see and modify notes created by other users.
