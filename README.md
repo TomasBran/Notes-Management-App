@@ -20,6 +20,13 @@ Here are some of the things you can do with this application:
 10. **Filter by Tags**: Filter notes according to their assigned tags.
 11. **Log Out**: End your session when finished. Note that sessions last for 1 hour.
 
+## Login Information
+
+Although users can register a new account, here is a pre-existing account you can use to log in directly:
+
+- **Email**: `admin@admin.com`
+- **Password**: `admin1234`
+
 ## Prerequisites
 
 Ensure you have the following installed on your machine:
