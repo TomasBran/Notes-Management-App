@@ -1,0 +1,26 @@
+.sidebar-scroll {
+	--sb-track-color: #f09e3a5e;
+	--sb-thumb-color: #f09e3a;
+	--sb-size: 12px;
+	cursor: pointer;
+}
+
+.sidebar-scroll::-webkit-scrollbar {
+	width: var(--sb-size);
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+	background: var(--sb-track-color);
+	border-radius: 3px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+	background: var(--sb-thumb-color);
+	border-radius: 3px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+	.sidebar-scroll {
+		scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+	}
+}
