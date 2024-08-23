@@ -32,10 +32,10 @@ Ensure you have the following installed on your machine:
 
 First, clone the repository:
 
-\`\`\`bash
+```bash
 git clone https://github.com/ensolvers-github-challenges/Bran-7a0416.git
 cd Bran-7a0416
-\`\`\`
+```
 
 ### Fast setup
 
@@ -43,69 +43,69 @@ cd Bran-7a0416
 
 Navigate to root directory:
 
-\`\`\`bash
+```bash
 ./setup.sh
-\`\`\`
+```
 
 ### Normal Setup
 
 #### Backend
 
-1. Navigate to the \`backend\` directory:
+1. Navigate to the `backend` directory:
 
-   \`\`\`bash
+   ```bash
    cd backend
-   \`\`\`
+   ```
 
 2. Install the backend dependencies:
 
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 #### Frontend
 
-1. Navigate to the \`frontend\` directory:
+1. Navigate to the `frontend` directory:
 
-   \`\`\`bash
+   ```bash
    cd ../frontend
-   \`\`\`
+   ```
 
 2. Install the frontend dependencies:
 
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 ## Running the Application
 
 ### Start the Backend
 
-1. Navigate to the \`backend\` directory:
+1. Navigate to the `backend` directory:
 
-   \`\`\`bash
+   ```bash
    cd backend
-   \`\`\`
+   ```
 
 2. Start the backend server:
 
-   \`\`\`bash
+   ```bash
    nest start
-   \`\`\`
+   ```
 
 ### Start the Frontend
 
-1. Navigate to the \`frontend\` directory:
+1. Navigate to the `frontend` directory:
 
-   \`\`\`bash
+   ```bash
    cd ../frontend
-   \`\`\`
+   ```
 
 2. Start the frontend server:
 
-   \`\`\`bash
+   ```bash
    npm start
-   \`\`\`
+   ```
 
 ## Access the Application
 
@@ -118,15 +118,15 @@ To stop the servers, use the following commands in separate terminal windows:
 
 ### Stop the Backend
 
-\`\`\`bash
+```bash
 pkill -f 'nest start'
-\`\`\`
+```
 
 ### Stop the Frontend
 
-\`\`\`bash
+```bash
 pkill -f 'npm start'
-\`\`\`
+```
 
 ## Tools and Versions
 
