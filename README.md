@@ -42,7 +42,7 @@ Ensure you have the following installed on your machine:
 First, clone the repository:
 
 ```bash
-git clone https://github.com/ensolvers-github-challenges/Bran-7a0416.git
+git clone https://github.com/TomasBran/Notes-Management-App
 cd Bran-7a0416
 ```
 
